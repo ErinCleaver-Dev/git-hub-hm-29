@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*Section for the call to action begins*/
+.call_to_action {
+  background: #e74c3c;
+  height: 35px;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+.call_to_action a {
+  color: white;
+
+}
+
+/*Section for call to action ends*/
+/*Website Navigation begins*/
+
+.main-menu-wrapper {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding: 30px 0;
+}
+
+#logo_image {
+  max-width: 55px;
+  display: inline-block;
+  padding-left: 100px;
+
+}
+
+.main-menu-wrapper ul {
+  padding-left: 50%;
+}
+.main-menu-wrapper ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+.main-menu-wrapper ul li a {
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+  padding-right: 20px;
+}
+/*Website Navigation ends*/
+
+.boot-camp-info {
+
+  background-image: url(https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2186302/settings_images/pt3dMMAKQ0m7zWobyr55_photo-1484417894907-623942c8ee29.webp);
+  
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  color: white;    
+  display: flex;
+  flex-direction: row;
+  min-height: 700px;
+  justify-content: center;
+  align-items: center;
+}
+
+#text_camp_info {
+  width: 550px;
+  margin-right: 120px;
+}
+
+.boot-camp-info h1 {
+  font-size: 3.5em;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.boot-camp-info #text_yello {
+  color: #f1c40f
+}
+.boot-camp-info p {
+  font-size: 2em;
+  padding-bottom: 40px;
+}
+
+.boot-camp-info #text_red {
+  color: #e74c3c;
+}
+
+#button_join_bootcamp {
+  font-family: Montserrat;
+  background-color: #2e91fc;
+  color: #fff;
+  font-weight: 600;
+  font-size: 3em;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  height: 100px;
+  box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+}
+
+/*Used on multiple elements*/
+h1, h2 {
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 1.3;
+}
